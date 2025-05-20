@@ -103,7 +103,7 @@ const GuardarUsuario = async (event) => {
 
     const body = new FormData(FormUsuarios);
 
-    const url = '/MVC/usuarios/guardarAPI';
+    const url = '/base_contreras/usuarios/guardarAPI';
     const config = {
         method: 'POST',
         body
@@ -151,7 +151,7 @@ const GuardarUsuario = async (event) => {
 
 const BuscarUsuarios = async () => {
 
-    const url = '/MVC/usuarios/buscarAPI';
+    const url = '/base_contreras/usuarios/buscarAPI';
     const config = {
         method: 'GET'
     }
@@ -309,7 +309,7 @@ const ModificarUsuario = async (event) => {
 
     const body = new FormData(FormUsuarios);
 
-    const url = '/MVC/usuarios/modificarAPI';
+    const url = '/base_contreras/usuarios/modificarAPI';
     const config = {
         method: 'POST',
         body
