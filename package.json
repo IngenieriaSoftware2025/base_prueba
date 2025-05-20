@@ -1,7 +1,7 @@
 {
-  "name": "demo-app",
+  "name": "base__contreras",
   "version": "1.0.0",
-  "description": "Aplicacion MVC demo",
+  "description": "esta es mi primera prueba con este framework",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
