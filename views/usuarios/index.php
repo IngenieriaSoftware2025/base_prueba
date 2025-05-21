@@ -1,5 +1,4 @@
 <div class="container py-5">
-    <!-- Header bonito -->
     <div class="row mb-5 justify-content-center">
         <div class="col-lg-8">
             <div class="card shadow-lg border-0 rounded-4">
