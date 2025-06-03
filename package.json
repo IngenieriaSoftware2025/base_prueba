@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "app02_macs",
   "version": "1.0.0",
   "description": "carrito de compras",
+=======
+  "name": "app01_macs",
+  "version": "1.0.0",
+  "description": "Aplicación para productos",
+>>>>>>> 2837b4513d33b51c1442a698f2ca7584cfbfce22
   "main": "index.js",
   "scripts": {
     "build": "webpack",
