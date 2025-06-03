@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 CREATE TABLE clientes (
     cliente_id SERIAL PRIMARY KEY,
     cliente_nombres VARCHAR(255) NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE carrito_temporal (
     fecha_agregado DATETIME YEAR TO SECOND DEFAULT CURRENT YEAR TO SECOND,
     FOREIGN KEY (producto_id) REFERENCES productos(producto_id)
 );
-=======
+
 CREATE TABLE categorias (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL UNIQUE
@@ -88,4 +88,4 @@ CREATE TABLE productos (
     FOREIGN KEY (categoria_id) REFERENCES categorias(id),
     FOREIGN KEY (prioridad_id) REFERENCES prioridades(id)
 );
->>>>>>> 2837b4513d33b51c1442a698f2ca7584cfbfce22
+ 2837b4513d33b51c1442a698f2ca7584cfbfce22
