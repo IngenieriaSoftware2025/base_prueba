@@ -1,7 +1,7 @@
 {
-  "name": "base__contreras",
+  "name": "app02_macs",
   "version": "1.0.0",
-  "description": "esta es mi primera prueba con este framework",
+  "description": "carrito de compras",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
